@@ -1,12 +1,15 @@
 from pytube import YouTube
-from sys import argv
 
-if len(argv) > 1:
-    link = argv[1]
-    yt = YouTube(link)
-
-    print("Title: ", yt.title)
-    yd = yt.streams.get_highest_resolution()
-    yd.download()
-else:
-    print("Please provide the address.")
+while True:
+    try:
+        print("Youtube Downloader".center(40, "_"))
+        url = input("Enter youtube url:  ")
+        yt = YouTube(url)
+        yd = yt.streams.get_highest_resolution()
+        yd.download()
+    except Exception:
+        print("Couldn't download the video.")
+    finally:
+        option = int(input("\n1.download again \n2.Exit\n\nOption here :"))
+    if option != 1:
+        break
