@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Video", "Video\YouTubeVideo.pyproj", "{15742F1E-F1F7-4584-B979-81CA49733350}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Audio", "Audio\YouTubeAudio.pyproj", "{FC32C49B-1F69-47FC-B3E6-7BC49EA4096C}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Transcript", "Transcript\YouTubeTranscript.pyproj", "{E0273290-80F0-4E48-AB57-16D2A4DA40EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15742F1E-F1F7-4584-B979-81CA49733350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15742F1E-F1F7-4584-B979-81CA49733350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC32C49B-1F69-47FC-B3E6-7BC49EA4096C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC32C49B-1F69-47FC-B3E6-7BC49EA4096C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0273290-80F0-4E48-AB57-16D2A4DA40EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0273290-80F0-4E48-AB57-16D2A4DA40EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {272C0D55-A2F5-4B65-84E1-9EC27EC93402}
+	EndGlobalSection
+EndGlobal
