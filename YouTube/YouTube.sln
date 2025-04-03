@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Video", "Video\YouTubeVideo.pyproj", "{15742F1E-F1F7-4584-B979-81CA49733350}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "YouTubeVideo", "Video\YouTubeVideo.pyproj", "{15742F1E-F1F7-4584-B979-81CA49733350}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Audio", "Audio\YouTubeAudio.pyproj", "{FC32C49B-1F69-47FC-B3E6-7BC49EA4096C}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "YouTubeAudio", "Audio\YouTubeAudio.pyproj", "{FC32C49B-1F69-47FC-B3E6-7BC49EA4096C}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Transcript", "Transcript\YouTubeTranscript.pyproj", "{E0273290-80F0-4E48-AB57-16D2A4DA40EB}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "YouTubeTranscript", "Transcript\YouTubeTranscript.pyproj", "{E0273290-80F0-4E48-AB57-16D2A4DA40EB}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "YouTubeThumb", "YouTubeThumb\YouTubeThumb.pyproj", "{BF1C3117-75B9-4333-BEEC-1352F2A8EA3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,8 @@ Global
 		{FC32C49B-1F69-47FC-B3E6-7BC49EA4096C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0273290-80F0-4E48-AB57-16D2A4DA40EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E0273290-80F0-4E48-AB57-16D2A4DA40EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF1C3117-75B9-4333-BEEC-1352F2A8EA3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF1C3117-75B9-4333-BEEC-1352F2A8EA3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
